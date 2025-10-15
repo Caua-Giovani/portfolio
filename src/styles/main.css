@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&display=swap');
+/* Nome da fonte "Inter" */
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+/* Nome da fonte "League Gothic" */
+
+
+.img-background{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+}
+
+.img-bg-sup-01{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    
+}
+
+.img-bg-sup-02{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.container-main-title{
+    z-index: 1;
+    padding: 0 150px 0 0;
+}
+
+.container-main-title h1{
+    font-family: "League Gothic", sans-serif;
+    letter-spacing: 12px;
+    font-size: 85px;
+    font-weight: 300;
+
+}
+
+
+.container-main-title p{
+    font-size: 30px;
+    text-align: center;
+    font-family: "League Gothic",sans-serif;
+    letter-spacing: 5px;
+}
+
+.container-contact-info{
+    z-index: 1;
+    align-self: flex-end;
+    padding: 0 0 40px 150px;
+
+}
+
+.container-contact-info h1{
+    font-size: 35px;
+    text-align: center;
+    font-family:"League Gothic",sans-serif ;
+    letter-spacing: 3px;
+    font-weight:500;
+}
+
+.container-contact-info li{
+    font-size: 20px;
+    list-style:inside;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.container-photo{
+    position: absolute;
+    left: 13%;
+    width: 280px;
+    border-radius:1000px;
+    border: solid 5px #4f5a6a;
+    box-shadow: -5px 2px 15px rgb(35, 35, 35);
+}
+
+
+
+.container-welcome-box{
+    width: 75%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 0 0;
+}
+
+.container-welcome-title{
+    align-self: flex-start;
+    position: absolute;
+    left: 23%;
+    bottom: -50%;
+}
+
+.container-welcome-content{
+    justify-items: flex-end;
+    align-self: flex-end;
+    margin: 0 100px;
+    padding: 0 50px 0 0;
+}
+
+.container-welcome-title h1{
+    font-size: 40px;
+    background-color: #758195;
+    font-family: "League Gothic", sans-serif;
+    letter-spacing: 8px;
+    text-align: center;
+    font-weight: 300;
+    padding: 40px ;
+    border-radius: 10px;
+    margin: 16px;
+    box-shadow: -5px 2px 15px rgb(48, 48, 48);
+}
+
+.container-welcome-content p{
+    font-size: 20px;
+    background-color: #758195;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    padding: 45px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 15px;
+    box-shadow: -5px 2px 15px rgb(48, 48, 48);
+}

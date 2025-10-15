@@ -1,0 +1,48 @@
+@import url(./header.css);
+@import url(./cards.css);
+@import url(./footer.css);
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+.container-home,.container-welcome,.container-experience,.container-courses{
+    width: 100vw;
+    height: 100vh;
+
+    font-size: 40px;
+    color: white;
+}
+
+.container-home{
+    background-color: #758195;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -100;
+    
+}
+
+.container-welcome{
+    background-color:#596678 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-experience{
+    background-color: #758195;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-courses{
+    background-color:#596678 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
