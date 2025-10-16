@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&display=swap');
+/* Nome da fonte "Inter" */
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+/* Nome da fonte "League Gothic" */
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    background-color: #323A45;
+    width: 100%;
+}
+
+.container-comment{
+
+}
+
+.container-footer-comment{
+    display: flex;
+    align-items: center;
+}
+
+.container-footer-comment input{
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
+.background-comment {
+    background-color: #596678;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:12px 10px 10px 10px;
+    border-radius:50px ; 
+    border:solid 2px #b4b4b4;
+}
+
+.background-comment img{
+    width: 50px;
+}

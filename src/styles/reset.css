@@ -5,4 +5,5 @@
     overflow-x: hidden;
     text-decoration: none;
     list-style: none;
+    scrollbar-width:none ;
 }
