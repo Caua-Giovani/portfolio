@@ -6,12 +6,10 @@
     align-items: center;
     position: fixed;
     height: 10vh;
-    background-color: #323A45;
+    background-color: transparent;
     width: 100%;
     padding: 5px 80px;
     z-index: 1000;
-    box-shadow:-5px 2px 15px black ;
-
 }
 
 .nav-bar ul{
@@ -29,22 +27,24 @@
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 10px;
-
 }
 
 .nav-bar li{
     color: white;
     cursor: pointer;
-    background-color: #596678;
+    background-color: #8995a6;
     padding: 8px 18px;
     border-radius: 5px;
     font-family: "League Gothic", sans-serif;
     letter-spacing: 5px;
     font-size: 24px;
     font-weight: 400;
-    border: solid 2px #758195;
+    border: solid 2px #404650;
     font-weight: 100;
-
+    transition: ease 0.3s;
+    margin: 20px;
 }
 
-
+.nav-bar li:hover{
+    transform: scale(1.2);
+}
