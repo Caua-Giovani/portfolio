@@ -105,4 +105,12 @@
     width: 45px;
     margin: 15px 2px;
     transition: ease 0.3s;
-}       
+}      
+
+.link-profile{
+    color: gray;
+    position: absolute;
+    bottom: -354%;
+    font-family:  "League Gothic", sans-serif;
+    letter-spacing: 3px;
+}
